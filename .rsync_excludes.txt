@@ -1,0 +1,4 @@
+.*
+./media/lua/client/Items/Example.lua
+README.md
+LICENSE.txt
