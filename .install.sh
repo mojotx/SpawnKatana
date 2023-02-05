@@ -4,7 +4,7 @@ SRCDIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 DEST="${HOME}/Zomboid/mods"
 
-if [[ -d "${SRCDIR}" ]]
+if [[ ! -d "${SRCDIR}" ]]
 then
     echo "Weird error!" >&2
     exit 1
