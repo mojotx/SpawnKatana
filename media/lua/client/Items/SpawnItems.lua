@@ -4,6 +4,7 @@ local SpawnItems = {};
 
 function SpawnItems.OnNewGame(playerObj, square)
     playerObj:getInventory():AddItem("Base.Katana");
+    playerObj:getInventory():AddItem("Michonne.Katana");
 
 	if isClient() then
 		if getServerOptions():getOption("SpawnKatana") and getServerOptions():getOption("SpawnKatana")~= "" then
