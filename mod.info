@@ -1,5 +1,5 @@
-name=Spawn With Kitana
+name=Spawn With Katana
 poster=poster.png
-id=SpawnKitana
-description=Always spawn with a kitana sword.
-url=https://github.com/mojotx/SpawnKitana
+id=SpawnKatana
+description=Always spawn with a katana sword.
+url=https://github.com/mojotx/SpawnKatana

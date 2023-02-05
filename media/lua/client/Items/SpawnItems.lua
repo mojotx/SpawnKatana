@@ -1,13 +1,13 @@
--- I want to always spawn with a kitana
+-- I want to always spawn with a katana
 
 local SpawnItems = {};
 
 function SpawnItems.OnNewGame(playerObj, square)
-    playerObj:getInventory():AddItem("Base.Kitana");
- 
+    playerObj:getInventory():AddItem("Base.Katana");
+
 	if isClient() then
-		if getServerOptions():getOption("SpawnKitana") and getServerOptions():getOption("SpawnKitana")~= "" then
-			local items = luautils.split(getServerOptions():getOption("SpawnKitana"), ",");
+		if getServerOptions():getOption("SpawnKatana") and getServerOptions():getOption("SpawnKatana")~= "" then
+			local items = luautils.split(getServerOptions():getOption("SpawnKatana"), ",");
 			for i,v in pairs(items) do
 				playerObj:getInventory():AddItem(v);
 			end;

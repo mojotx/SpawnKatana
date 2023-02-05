@@ -1,4 +1,4 @@
 .*
-SpawnKitana/media/lua/client/Items/Example.lua
+SpawnKatana/media/lua/client/Items/Example.lua
 README.md
 LICENSE.txt
