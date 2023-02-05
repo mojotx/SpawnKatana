@@ -3,7 +3,7 @@
 local SpawnItems = {};
 
 function SpawnItems.OnNewGame(playerObj, square)
-    playerObj:getInventory():AddItem("Base.Katana");
+    -- playerObj:getInventory():AddItem("Base.Katana");
     playerObj:getInventory():AddItem("Michonne.Katana");
 
 	if isClient() then
