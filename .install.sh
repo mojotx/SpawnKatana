@@ -15,7 +15,11 @@ then
     mkdir -p "${DEST}"
 fi
 
-rsync -avP --exclude-from="${SRCDIR}/.rsync_excludes.txt" "${SRCDIR}" "${DEST}"
+rsync -avP \
+    --exclude-from="${SRCDIR}/.rsync_excludes.txt" \
+    --delete-excluded \
+    --delete \
+    "${SRCDIR}" "${DEST}"
 
 
 # vim:ft=sh
